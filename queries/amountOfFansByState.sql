@@ -1,0 +1,1 @@
+select distinct state, count(state) as amount from fans group by state order by amount desc
